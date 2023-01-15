@@ -1,0 +1,85 @@
+body {
+    background-color: #AAB2D5;
+    font-family: monospace;
+}
+
+.title span{
+    --total: calc(var(--duration) + var(--delay));
+    position: relative;
+    display: block;
+    color:transparent;
+    overflow: hidden;
+    animation: revealText 1s var(--total) forwards;
+}
+
+h1{
+    text-align: left;
+    text-shadow:2px 2px 5px #757FB2;
+}
+.cajaPrincipal {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-color: #757FB2;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.cajaRecibetxt {
+    width: 90%;
+    height: 80%;
+}
+
+
+.cajaMuestraTxt {
+    width: 50%;
+    height: 100%;
+
+}
+
+textarea {
+    resize: none;
+    width: 90%;
+    height: 90%;
+    margin-inline: 5%;
+    margin-top: 4%;
+    border-radius: 10px;
+    text-align: start;
+    font-size: 18px;
+}
+
+.special-bg {
+    background-image: url('imagenesET/doll.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 20px;
+    text-align:center;
+}
+
+.txtBotones
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+button {
+    background-color: #AAB2D5;
+    border-color: #757FB2;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    width: 30%;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    font-size: 200%;
+}

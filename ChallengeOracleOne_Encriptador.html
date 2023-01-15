@@ -1,0 +1,61 @@
+<DOCTYPE html>
+
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+       
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <script src="javascript.js"></script>
+
+        <header>
+            <img class="logoP" src=imagenesET/vectorA.png>
+            <h1>Encriptador y Desencriptador de Textos</h1>
+        </header>
+
+        <main>
+
+            <form class="cajaPrincipal">
+
+                <div class="cajaRecibeTxt">
+                    <textarea id="aEncriptar" name="recibeTxt" placeholder="Ingrese el texto..." required></textarea>
+
+                    <p> <img class="advertencia" src="imagenesET/advertencia.png">&nbsp;Solo letras minusculas y sin
+                        acentos</p>
+
+                    <div class="txtBotones">
+                        <button id="encriptarBtn" type="button" onclick="encripteishon()">Encriptar</button>
+                        <button id="desencriptarBtn" type="button" onclick="desencripteishon()">Desencriptar</button>
+                        <button id="copiarBtn" type="button" onclick="copiarTxt()">Copiar</button>
+                    </div>
+
+                </div>
+
+                <div class="cajaMuestraTxt">
+                    <textarea class="special-bg" id="txtEncriptado" name="muestraTxt" placeholder=""
+                        readonly></textarea>
+                </div>
+
+            </form>
+
+        </main>
+
+        <footer>
+            <p class="copyright">&copy; Copyright Andrea Castro: Alura - 2022</p>
+            <a href="https://github.com/Janvic06" target="_blank" title="GitHub de Andrea Castro"><img class="gitHub" src="imagenesET/github.png"></a>
+            <a href="https://www.linkedin.com/in/janvic06/" target="_blank" title="Linkedin de Andrea Castro"><img class="linkedin" src="imagenesET/linkedin.png"></a>
+
+            
+
+        </footer>
+
+
+    </body>
+
+    </html>
